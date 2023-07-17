@@ -1,0 +1,28 @@
+.grid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "n p"
+    "c c"
+    "a e";
+}
+#firstname{
+    grid-area:n;
+}
+#lastname{
+    grid-area:p;
+}
+#textarea{
+    grid-area:c;
+}
+#btn1{
+    grid-area:a;
+}
+#btn2{
+    grid-area:e;
+}
